@@ -22,15 +22,16 @@
         </a>
 
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            aria-controls="navbarSupportedContent" aria-expanded="false" id="openmenu" aria-label="Toggle navigation"
+            onclick="on()">
             <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <div class="collapse navbar-collapse" id="">
 
             <ul class="navbar-nav mr-auto">
 
                 <form class="form-inline my-2 my-lg-0 search">
-                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                    <input class="form-control mr-sm-2 search" type="search" placeholder="Search" aria-label="Search">
                     <button class="btn  my-2 my-sm-0 " type="submit"><i class="fas fa-search"></i></button>
                 </form>
 
@@ -46,12 +47,25 @@
 
             </div>
 
+
         </div>
     </nav>
+    <div id="overlay" onclick="off()"></div>
+
+    <div style="background-color: black !important;" id="page border-dark">
+        <div style="background-color: white;" id="menuleftcontent">
+            <a class="mr-1" href="">Login </a> <br>
+            <a class="mr-1" href="">Login </a> <br>
+            <a class="mr-1" href="">Login </a> <br>
+            <a class="mr-1" href="">Login </a> <br>
+            <a class="mr-1" href="">Login </a> <br>
+        </div>
+    </div>
+
 
 
     <!-- FOOTER -->
-    <footer class="footer-dark">
+    <footer class="container footer-dark text-dark bg-white">
         <div class="container">
             <div class="row">
                 <div class="col-sm-6 col-md-3 item">
@@ -73,17 +87,29 @@
                 <div class="col-md-6 item text">
                     <h3>Company Name</h3>
                     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempora incidunt quidem dolor
-                        consequuntur? Rerum quasi dolor sapiente consequatur dignissimos saepe repellat! Quia recusandae
+                        consequuntur? Rerum quasi dolor sapiente consequatur dignissimos saepe repellat! Quia
+                        recusandae
                         consectetur voluptas veniam. Commodi delectus saepe sit.</p>
                 </div>
                 <div class="col item social"><a href="#"><i class="icon ion-social-facebook"></i></a><a href="#"><i
                             class="icon ion-social-twitter"></i></a><a href="#"><i
                             class="icon ion-social-snapchat"></i></a><a href="#"><i
                             class="icon ion-social-instagram"></i></a></div>
+
             </div>
-            <p class="copyright">Company Name © 2018</p>
+            <p st class="copyright ">Company Name © 2018</p>
+
         </div>
     </footer>
+
+
+
+
+
+
+
+    <script src="js/app.js"></script>
+
 </body>
 
 
