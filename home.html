@@ -5,11 +5,86 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/app.css">
+
     <title>Document</title>
 </head>
 
 <body>
+    <!-- NAV BAR -->
+    <nav class="container navbar navbar-expand-lg navbar-light ">
+        <a class="navbar-brand" href="">
+            <img style="border-radius: 8px;" src="icons/logo.webp" width="40" height="40" alt="">
+        </a>
 
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+            <ul class="navbar-nav mr-auto">
+
+                <form class="form-inline my-2 my-lg-0 search">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn  my-2 my-sm-0 " type="submit"><i class="fas fa-search"></i></button>
+                </form>
+
+            </ul>
+
+            <div class="form-inline my-2 my-lg-0">
+
+
+                <a class="mr-1" href="">Login </a>
+                <span> / </span>
+                <a class="ml-1" href=""> Register</a>
+
+
+            </div>
+
+        </div>
+    </nav>
+
+
+    <!-- FOOTER -->
+    <footer class="footer-dark">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6 col-md-3 item">
+                    <h3>Services</h3>
+                    <ul>
+                        <li><a href="#">Web design</a></li>
+                        <li><a href="#">Development</a></li>
+                        <li><a href="#">Hosting</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-6 col-md-3 item">
+                    <h3>About</h3>
+                    <ul>
+                        <li><a href="#">Company</a></li>
+                        <li><a href="#">Team</a></li>
+                        <li><a href="#">Careers</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-6 item text">
+                    <h3>Company Name</h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempora incidunt quidem dolor
+                        consequuntur? Rerum quasi dolor sapiente consequatur dignissimos saepe repellat! Quia recusandae
+                        consectetur voluptas veniam. Commodi delectus saepe sit.</p>
+                </div>
+                <div class="col item social"><a href="#"><i class="icon ion-social-facebook"></i></a><a href="#"><i
+                            class="icon ion-social-twitter"></i></a><a href="#"><i
+                            class="icon ion-social-snapchat"></i></a><a href="#"><i
+                            class="icon ion-social-instagram"></i></a></div>
+            </div>
+            <p class="copyright">Company Name © 2018</p>
+        </div>
+    </footer>
 </body>
+
 
 </html>
