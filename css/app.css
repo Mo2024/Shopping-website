@@ -1,3 +1,7 @@
+body{
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Roboto', sans-serif;}
+
 /* NAVBAR */
 a{
     color: black;
@@ -30,7 +34,7 @@ input.search {
     width: 200px;
     left: 0px;
     position:absolute;
-    display:none
+    display:none;
 }
 #clearingdiv {
     clear: both;
@@ -48,17 +52,23 @@ input.search {
     background-color: rgba(0,0,0,0.5);
     z-index: 2;
     cursor: pointer; */
-    position: fixed;
-    width: 100%;
-    height: 100%;
-    visibility: none;
+    position: absolute;
+    left: 0;
+    right: 0;
+    height: 100%; 
+    display: none;
     overflow: hidden;
     background-color: rgba(0,0,0,.6);
     top: 0;
-    left: 0;
     z-index: 99;
     animation-name: fadeIn;
-  }
+}
+
+/* TOGGLE LEFT SIDE THING */
+/* .routes{
+    font-size: 1rem;
+} */
+
 
 /* FOOTER */
 .footer-dark {
