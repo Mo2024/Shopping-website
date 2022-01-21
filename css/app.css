@@ -10,7 +10,7 @@ a:hover{
     color: black;
     text-decoration: none;
 }
-form.search {
+/* form.search {
     color: #555;
     display: flex;
     padding: 2px;
@@ -26,7 +26,9 @@ input.search {
     color: inherit;
     border: 1px solid transparent;
     border-radius: inherit;
-}
+} */
+
+
   
 /* NAVBAR TOGGLE BUTTON */
 #menuleftcontent {
@@ -164,4 +166,50 @@ input.search {
 
 
   
- 
+ /* PRODUCTS */
+ /* MENU FOOD BOX */
+.foodImg{
+    -webkit-box-shadow: 0 8px 6px -6px black;
+    -moz-box-shadow: 0 8px 6px -6px black;
+    box-shadow: 0 8px 6px -6px black;
+    position:relative;
+    display:-ms-flexbox;
+    display:flex;
+    -ms-flex-direction:column;
+    flex-direction:column;
+    min-width:0;
+    word-wrap:break-word;
+    background-color:#fff;
+    background-clip:border-box;
+    border:1px solid rgba(0,0,0,.125);
+    border-radius:.25rem
+  }
+  .add2CartBtn{
+    color: #058E46;
+    border-color: #058E46;
+    transition: color 0.5s, background-color 0.5s;
+  
+  }
+  .add2CartBtn:hover{
+    background-color: #058E46;
+    color: white;
+  }
+  .card{
+    transition: color 0.3s, box-shadow 0.3s;
+
+  }
+  .card:hover{
+    box-shadow: rgba(0, 0, 0, 0.5) 0px 5px 15px;
+  }
+
+/* 
+@media (max-width:767px) {
+    .ml-sm1-5{
+        margin-left: 5.5rem !important;
+    }
+      
+} */
+/* 
+.border-secondary{
+    border-color:rgba(255, 0, 0, 0.03) !important;
+} */
