@@ -242,3 +242,12 @@ input.search {
 .border-secondary{
     border-color:rgba(255, 0, 0, 0.03) !important;
 } */
+
+.searchBtn{
+    transition: color 0.5s, background-color 0.5s;
+  
+}
+.searchBtn:hover{
+    background-color: black !important;
+    color: white !important;
+}
