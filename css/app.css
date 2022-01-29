@@ -105,20 +105,42 @@ input.search {
     opacity:0.8;
 }
   
-@media (max-width:767px) {
-    .footer-dark .item:not(.social) {
-      text-align:center;
-      padding-bottom:20px;
-    }
-}
   
 .footer-dark .item.text {
     margin-bottom:36px;
 }
   
 @media (max-width:767px) {
+    .footer-dark .item:not(.social) {
+        text-align:center;
+        padding-bottom:20px;
+      }
     .footer-dark .item.text {
       margin-bottom:0;
+    }
+    .foodImg{
+        height: 468px !important;
+        /* max-height: 100% !important; */
+
+    }
+}
+@media (min-width:768px) {
+
+    .foodImg{
+        height: 288px;
+    }
+}
+@media (min-width:992px) {
+
+    .foodImg{
+        height: 247.98px;
+    }
+}
+  
+@media (min-width:1200px) {
+
+    .foodImg{
+        height: 213px;
     }
 }
   
@@ -182,8 +204,15 @@ input.search {
     background-color:#fff;
     background-clip:border-box;
     border:1px solid rgba(0,0,0,.125);
-    border-radius:.25rem
-  }
+    border-radius:.25rem;
+    /* width: 213px; */
+    /* align-content: center; */
+    /* max-height: 100%;
+    object-fit: cover;
+    object-position: center center; */
+    object-fit: cover;
+
+}
   .add2CartBtn{
     color: #058E46;
     border-color: #058E46;
